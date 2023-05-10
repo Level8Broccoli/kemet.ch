@@ -1,1 +1,1 @@
-# uptime-amunra
+# https://kemet.ch
