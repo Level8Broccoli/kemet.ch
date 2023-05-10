@@ -1,8 +1,17 @@
 version: "3"
 
 services:
+  home:
+    image: lissy93/dashy
+    container_name: Dashy
+    ports: 
+    - "4000:80"
+    restart: always
+    environment:
+    - NODE_ENV=production
   uptime:
     image: louislam/uptime-kuma:1
+    container_name: Uptime-Kuma
     ports:
     - "3001:3001"
     restart: always
